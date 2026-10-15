@@ -1,0 +1,23 @@
+{
+    "random_seed": 42,
+    "dataset": "C:\\Users\\Oruh Precious\\Downloads\\otomoto_ann_project\\data\\teleconnect.csv",
+    "split": "70% training, 15% validation, 15% test",
+    "architecture": [
+        "Dense(32, activation='relu')",
+        "Dense(1, activation='sigmoid')"
+    ],
+    "optimizer": "Adam",
+    "learning_rate": 0.003,
+    "loss": "binary_crossentropy",
+    "batch_size": 32,
+    "maximum_epochs": 50,
+    "early_stopping_patience": 5,
+    "thresholds": [
+        0.5,
+        0.3
+    ],
+    "class_weights": {
+        "0": 0.680563224737714,
+        "1": 1.8845565749235473
+    }
+}

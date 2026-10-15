@@ -1,0 +1,13 @@
+{
+    "random_seed": 42,
+    "train_validation_test_split": "70/15/15",
+    "learning_rate": 0.003,
+    "classification_threshold": 0.5,
+    "batch_size": 32,
+    "maximum_epochs": 50,
+    "early_stopping_patience": 5,
+    "class_weights": {
+        "0": 0.680563224737714,
+        "1": 1.8845565749235473
+    }
+}
