@@ -246,29 +246,3 @@ I selected this model because it provided the strongest results in the final com
 
 Further evaluation, including financial analysis, testing on new data, fairness assessment, and ongoing monitoring, would be necessary before using the model in a real business environment.
 
-## 12. Project Structure
-
-The repository is organized to separate model scripts, results, visualizations, and saved models.
-
-```text
-Otomoto-ANN-Optimization/
-│
-├── README.md
-├── baseline_ann.py
-├── optimizer_comparison.py
-├── adam_tuning.py
-├── final_threshold_check.py
-├── class_imbalance_experiment.py
-├── requirements.txt
-│
-├── results/
-│   ├── final_validation_selected_test_results.csv
-│   └── validation_threshold_search.csv
-│
-├── figures/
-│   ├── unweighted_ann_final_test_confusion_matrix.png
-│   └── class_weighted_ann_final_test_confusion_matrix.png
-│
-└── models/
-    ├── unweighted_ann_validation_tuned.keras
-    └── class_weighted_ann_validation_tuned.keras
